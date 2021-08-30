@@ -1,0 +1,49 @@
+{
+    "SJTU-al-mmc-property": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "information": {
+            "data-source": "SJTU",
+            "upload-date": "2019-06-22",
+            "doi": null
+        },
+        "mechanical-property": {
+            "number-of-test-sample": 3,
+            "volume-ratio-of-reinforcement-in-test-sample": {
+                "value": 15,
+                "unit": "%"
+            },
+            "test-date": "2019-04-10",
+            "youngs-modulus": {
+                "value": 83.0,
+                "unit": "GPa"
+            },
+            "specifies-the-plastic-elongation-strength": {
+                "specifies-the-plastic-elongation-strength-record": {
+                    "rp": 0.2,
+                    "strength": {
+                        "value": 389,
+                        "unit": "MPa"
+                    }
+                }
+            },
+            "tensile-strength": {
+                "value": 421,
+                "unit": "MPa"
+            },
+            "break-strength": {
+                "value": 418,
+                "unit": "MPa"
+            },
+            "percentage-elongation-at-maximum-force": {
+                "value": 1.4,
+                "unit": "%"
+            },
+            "tensile-curve": {
+                "file": {
+                    "name": "3.xls",
+                    "url": "/mdcs-sjtu/rest/blob/download/5d0dd4ee082f6d0c23bd1210/"
+                }
+            }
+        }
+    }
+}
