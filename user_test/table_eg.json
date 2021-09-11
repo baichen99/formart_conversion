@@ -1,0 +1,82 @@
+{
+    "SJTU-al-mmc-technology": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "information": {
+            "data-source": "SJTU",
+            "upload-date": "2019-07-30",
+            "doi": "**"
+        },
+        "heat-treatment": {
+            "sample-number-of-heat-treatment": 20160121,
+            "weight-ratio-of-reinforcement-in-workpiece": {
+                "value": 25,
+                "unit": "wt.%"
+            },
+            "original-dimensions-of-workpiece": "φ280x30mm圆环",
+            "category-of-heat-treatment": "T7",
+            "temperature-of-workpiece-before-heat-treatment": {
+                "value": 11,
+                "unit": "℃"
+            },
+            "time-of-heating-up-in-the-heat-treatment": {
+                "value": 70,
+                "unit": "min"
+            },
+            "temperature-of-heat-treatment": {
+                "value": 499,
+                "unit": "℃"
+            },
+            "holding-time-of-workpiece-during-heating-treatment": {
+                "value": 80,
+                "unit": "min"
+            },
+            "cooling-mode-of-heat-treatment": "水冷",
+            "temperature-of-the-cooling-water": {
+                "value": 11,
+                "unit": "℃"
+            },
+            "temperature-of-the-workpiece-after-cooling": {
+                "value": 24,
+                "unit": "℃"
+            },
+            "ageing-mode": "人工时效",
+            "ageing-process": {
+                "ageing-process-record": [
+                    {
+                        "ageing-temperature": {
+                            "value": 160,
+                            "unit": "℃"
+                        },
+                        "time-of-ageing": {
+                            "value": 6,
+                            "unit": "h"
+                        }
+                    },
+                    {
+                        "ageing-temperature": {
+                            "value": 200,
+                            "unit": "℃"
+                        },
+                        "time-of-ageing": {
+                            "value": 3,
+                            "unit": "h"
+                        }
+                    }
+                ]
+            },
+            "cooling-pattern-of-ageing": "随炉冷却",
+            "temperature-of-the-workpiece-after-ageing": {
+                "value": 11,
+                "unit": "℃"
+            }
+        },
+        "property-link": {
+            "links": {
+                "link": {
+                    "description": "测试链接",
+                    "url": "5d0dd038082f6d0c23bd105c"
+                }
+            }
+        }
+    }
+}
