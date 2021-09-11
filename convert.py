@@ -56,18 +56,20 @@ def data_convert(template, data, tc):
   return template
 
 if __name__ == '__main__':
-  with open('user_test/性能数据.json', 'r', encoding='UTF-8') as f:
+  with open('json_files/性能数据.json', 'r', encoding='UTF-8') as f:
     file_template = json.load(f)
   data_template = file_template['data'][0]
 
-  with open('user_test/template_conversion.json', encoding='UTF-8') as f:
+  with open('json_files/template_conversion.json', encoding='UTF-8') as f:
     tc = json.load(f)
 
-  with open('test.json', encoding='UTF-8') as f:
-    data = json.load(f)
+  with open('json_files/data.json', encoding='UTF-8') as f:
+    data_list = json.load(f)
 
-  res = data_convert(data_template, data, tc)
-  print(res)
+  for data in data_list[:5]:
+    res = data_convert(data_template, data, tc)
+    
+    print(res)
 
 
 
