@@ -6,5 +6,8 @@
   "content.'力学性能'.'测试样品含量'": "dict_content.SJTU-al-mmc-property.mechanical-property.volume-ratio-of-reinforcement-in-test-sample.value",
   "content.'力学性能'.'测试日期'": "dict_content.SJTU-al-mmc-property.mechanical-property.test-date",
   "content.'力学性能'.'测试人'": "dict_content.SJTU-al-mmc-property.mechanical-property.tester",
-  "content.'力学性能'.'规定塑性延伸强度'.('规定非比例延伸强度', '强度')": "dict_content.SJTU-al-mmc-property.mechanical-property.specifies-the-plastic-elongation-strength.specifies-the-plastic-elongation-strength-record.('strength.value', 'rp')"
+  "content.'力学性能'.'规定塑性延伸强度'.('规定非比例延伸强度', '强度')": "dict_content.SJTU-al-mmc-property.mechanical-property.specifies-the-plastic-elongation-strength.specifies-the-plastic-elongation-strength-record.('strength.value', 'rp')",
+  "files": {
+    "content.'力学性能'.'拉伸曲线'": "dict_content.SJTU-al-mmc-property.mechanical-property.file.url"
+  }
 }
